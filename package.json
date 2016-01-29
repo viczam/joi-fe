@@ -1,0 +1,27 @@
+{
+  "name": "joi-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/webpack/bin/webpack.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viczam/joi-fe.git"
+  },
+  "author": "Victor Zamfir <zamfir.victor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viczam/joi-fe/issues"
+  },
+  "homepage": "https://github.com/viczam/joi-fe#readme",
+  "dependencies": {
+    "joi": "^7.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.12",
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2"
+  }
+}
