@@ -4,7 +4,8 @@
   "description": "",
   "main": "./dist/joi.js",
   "scripts": {
-    "postinstall": "webpack ."
+    "postinstall": "npm run build",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
